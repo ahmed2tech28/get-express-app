@@ -1,6 +1,6 @@
 {
   "name": "get-express-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to generate Express.js apps",
   "main": "index.js",
   "bin": {
