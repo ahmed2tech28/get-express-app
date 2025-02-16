@@ -1,4 +1,4 @@
-# create-express-app 🚀
+# get-express-app 🚀
 
 A CLI tool to quickly generate an Express.js app with different configurations like API mode, EJS views, and more.
 
@@ -7,13 +7,13 @@ A CLI tool to quickly generate an Express.js app with different configurations l
 You can install it globally using npm:
 
 ```sh
-npm install -g create-express-app
+npm install -g get-express-app
 ```
 
 Or use it directly with `npx` (no installation required):
 
 ```sh
-npx create-express-app my-app
+npx get-express-app my-app
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npx create-express-app my-app
 ### Create a Basic Express App
 
 ```sh
-npx create-express-app my-app
+npx get-express-app my-app
 ```
 
 This will create a simple Express.js app with default settings.
@@ -29,7 +29,7 @@ This will create a simple Express.js app with default settings.
 ### Create an Express API (No Views)
 
 ```sh
-npx create-express-app my-api --api
+npx get-express-app my-api --api
 ```
 
 This will generate an Express app configured as an API (without a templating engine).
@@ -37,7 +37,7 @@ This will generate an Express app configured as an API (without a templating eng
 ### Create an Express App with EJS Views
 
 ```sh
-npx create-express-app my-webapp --ejs
+npx get-express-app my-webapp --ejs
 ```
 
 This will generate an Express app with **EJS** as the templating engine.
@@ -77,8 +77,8 @@ If you want to modify and test this CLI tool locally:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/create-express-app.git
-   cd create-express-app
+   git clone https://github.com/yourusername/get-express-app.git
+   cd get-express-app
    ```
 2. Install dependencies:
    ```sh
@@ -90,7 +90,7 @@ If you want to modify and test this CLI tool locally:
    ```
 4. Now, test it by running:
    ```sh
-   create-express-app test-app --api
+   get-express-app test-app --api
    ```
 
 ## Contributing
