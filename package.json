@@ -1,10 +1,10 @@
 {
-  "name": "create-express-app",
+  "name": "get-express-app",
   "version": "1.0.0",
   "description": "CLI tool to generate Express.js apps",
   "main": "index.js",
   "bin": {
-    "create-express-app": "index.js"
+    "get-express-app": "index.js"
   },
   "dependencies": {
     "commander": "^latest",
