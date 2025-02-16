@@ -18,14 +18,6 @@ npx get-express-app my-app
 
 ## Usage
 
-### Create a Basic Express App
-
-```sh
-npx get-express-app my-app
-```
-
-This will create a simple Express.js app with default settings.
-
 ### Create an Express API (No Views)
 
 ```sh
