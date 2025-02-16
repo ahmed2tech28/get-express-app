@@ -12,7 +12,7 @@ program
   .option("--api", "Create an Express API app")
   .option("--ejs", "Create an Express app with EJS views")
   .action((projectName, options) => {
-    let template = "default";
+    let template = "api";
     if (options.api) template = "api";
     if (options.ejs) template = "ejs";
 
