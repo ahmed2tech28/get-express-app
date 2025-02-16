@@ -6,8 +6,11 @@
   "bin": {
     "get-express-app": "index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "commander": "^latest",
-    "fs-extra": "^latest"
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0"
   }
 }
