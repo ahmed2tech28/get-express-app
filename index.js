@@ -37,8 +37,22 @@ program
       { stdio: "inherit" }
     );
 
+    console.log("🧹 Removing all .gitkeep files...");
+    removeGitkeepFiles(projectPath);
+
     console.log("✅ Setup complete! Run the following to start your app:");
     console.log(`\n    cd ${projectName} && npm start\n`);
   });
+
+function removeGitkeepFiles(dir) {
+  fs.readdirSync(dir).forEach((file) => {
+    const fullPath = path.join(dir, file);
+    if (fs.statSync(fullPath).isDirectory()) {
+      removeGitkeepFiles(fullPath);
+    } else if (file === ".gitkeep") {
+      fs.unlinkSync(fullPath);
+    }
+  });
+}
 
 program.parse(process.argv);

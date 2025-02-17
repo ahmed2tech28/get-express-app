@@ -50,17 +50,18 @@ Each generated project follows this structure:
 ```
 my-app/
 ├── node_modules/
-├── public/
-│   ├── css/
-│   ├── js/
-├── views/  (Only for EJS template)
+├── controllers/
+├── models/
 ├── routes/
 │   ├── index.js
-│   ├── api.js (Only for API template)
+├── utils/
+├── public/ (Only for EJS template)
+│   ├── js/
+│   ├── css/
+├── views/  (Only for EJS template)
 ├── .gitignore
 ├── package.json
-├── server.js
-└── README.md
+├── index.js
 ```
 
 ## Development
